@@ -1,0 +1,199 @@
+body
+{
+	background-color: #222222;
+	font-family: arial;
+	margin: 0px;
+}
+
+li
+{
+	list-style-image: url('../images/yin_yang.png');
+}
+
+table
+{
+	border-collapse: collapse;
+}
+
+.bottom_link
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.comment
+{
+	background-color: #f5f2e7;
+	border: outset gray 3px;
+	padding: 5px;
+	font-style: italic;
+	font-size: 16px;
+	font-family: lucida;
+}
+
+.footer
+{
+	border-right: solid black 1px;
+	border-left: solid black 1px;
+	width: 863px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+.p
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.resource_table
+{
+	background-color: #f5f2e7;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	border: outset gray 3px;
+	border-collapse: collapse;
+	width: 260px;
+}
+	.resource_table td
+	{
+		padding: 2px;
+	}
+
+.resource_table_title
+{
+	font-family: headline mt;
+	color: white;
+	font-size: 1.3em;
+	background-color: red;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.resource_table_body_title
+{
+	font-family: arial;
+	color: #0000ff;
+	font-size: 0.9em;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.resource_table_body
+{
+	font-family: arial;
+	color: #0000ff;
+	font-size: 0.7em;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.resource_table_body2
+{
+	font-family: arial;
+	color: blue;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+	.resource_table_body2 a
+	{
+		color: red;
+	}
+
+.signature
+{
+	font-weight: bold;
+	text-align: right;
+}
+
+.title
+{
+	color: #cc0000;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#buttons
+{
+	background-color: white;
+	width: 863px;
+	border: solid black 1px;
+	border-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	color: yellow;
+}
+	#buttons div
+	{
+		position: relative;
+		left: 50px;
+		top: 24px;
+		z-index: 2;
+	}
+	#buttons img
+	{
+		position: relative;
+		left: 30px;
+		z-index: 1;
+	}
+
+#contact
+{
+	background-color: white;
+	width: 865px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid black 1px;
+	border-top: 0px;
+}
+	#contact td
+	{
+		padding: 20px;
+	}
+
+#index td
+{
+	border: solid black 1px;
+	padding: 15px;
+	vertical-align: top;
+}
+
+#privacy
+{
+	border: solid black 1px;
+	border-top: none;
+	background-color: white;
+	width: 863px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+	#privacy table
+	{
+		font-family: verdana;
+		font-size: 15px;
+	}
+	#privacy td
+	{
+		border: none;
+		padding: 5px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#privacy font
+	{
+		font-weight: bold;
+	}
+	#privacy a
+	{
+		color: #cc0000;
+	}
